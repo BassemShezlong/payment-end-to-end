@@ -1,0 +1,2 @@
+RedirectToUrl=https://accept.paymob.com/unifiedcheckout/?publicKey=egy_pk_test_Hhxq185HZmeofaz8A1zWzaZfTIsg8LsS&clientSecret=egy_csk_test_81dfc8c7f39db96f938cffcc3cbd49dc
+OrderId=367031829

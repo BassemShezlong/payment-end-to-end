@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite Therapist Side">
+<test name="Smoke Test Therapist Side">
+    <classes>
+        <class name="example.tests.TherapistSide.AvailableToAdd"/>
+        <class name="example.tests.TherapistSide.AddSingleTimeSlot"/>
+    </classes>
+</test>
+</suite>

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suites Container">
+    <suite-files>
+        <suite-file path="TherapistSide.xml"/>
+        <suite-file path="ClientSide.xml"/>
+        <suite-file path="OperatorSide.xml"/>
+    </suite-files>
+</suite>
