@@ -17,7 +17,7 @@ public class AddSingleTimeSlot {
         String servId = null;
 
         // Step 1: Read AccessToken and slot info from files
-        try (BufferedReader tokenReader = new BufferedReader(new FileReader("Variables"));
+        try (BufferedReader tokenReader = new BufferedReader(new FileReader("therapist_token"));
              BufferedReader slotReader = new BufferedReader(new FileReader("available_slot_info.txt"))) {
 
             String line;

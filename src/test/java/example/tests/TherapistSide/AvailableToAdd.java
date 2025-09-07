@@ -18,9 +18,9 @@ public class AvailableToAdd {
 
     @Test
     public void getAvailableTimeSlots() {
-        // Step 1: Read token from Variables file
+        // Step 1: Read token from therapist_token file
         String token = null;
-        try (BufferedReader reader = new BufferedReader(new FileReader("Variables"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("therapist_token"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 if (line.startsWith("AccessToken=")) {
@@ -32,7 +32,7 @@ public class AvailableToAdd {
         }
 
         if (token == null) {
-            System.err.println("❌ AccessToken not found in Variables file.");
+            System.err.println("❌ AccessToken not found in therapist_token file.");
             return;
         }
 
